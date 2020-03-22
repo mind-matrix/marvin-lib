@@ -1,0 +1,33 @@
+{
+  "name": "marvin",
+  "version": "1.0.0",
+  "description": "Library for connecting to other Marvin Services",
+  "main": "index.js",
+  "scripts": {
+    "build:browser": "webpack --config browser.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "marvin",
+    "webrtc"
+  ],
+  "author": "Sagnik Modak",
+  "license": "MIT",
+  "dependencies": {
+    "collections": "^5.1.9",
+    "comment-parser": "^0.7.2",
+    "esprima": "^4.0.1",
+    "rtc-everywhere": "0.0.5",
+    "uniqid": "^5.2.0",
+    "wrtc": "^0.4.3",
+    "ws": "^7.2.3"
+  },
+  "optionalDependencies": {
+    "bufferutil": "^4.0.1",
+    "utf-8-validate": "^5.0.2"
+  },
+  "devDependencies": {
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
