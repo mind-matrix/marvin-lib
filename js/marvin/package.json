@@ -21,7 +21,7 @@
     "rtc-everywhere": "0.0.5",
     "uniqid": "^5.2.0",
     "wrtc": "^0.4.3",
-    "ws": "^7.2.3"
+    "ws": "^7.4.6"
   },
   "optionalDependencies": {
     "bufferutil": "^4.0.1",
